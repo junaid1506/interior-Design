@@ -1,7 +1,7 @@
 .lt-services-section {
     padding: 50px 20px;
     width: 90%;
-    margin: auto 5vh;
+    margin: 5vh auto;
     margin-bottom: 5vh;
     text-align: center;
     background: rgba(0, 0, 0, 0.35);
@@ -38,7 +38,7 @@
   
   .lt-service-img {
     width: 100%;
-    height: auto;
+    max-height: 200px;
     border-radius: 10px;
     display: block;
   }
@@ -46,7 +46,7 @@
   .lt-service-title {
     margin-top: 15px;
     font-size: 1.2em;
-    text-transform: lowercase;
+    text-transform: capitalize;
     color: #fff;
   }
   
