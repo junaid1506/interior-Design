@@ -1,0 +1,52 @@
+.lt-services-section {
+    padding: 50px 20px;
+    width: 90%;
+    margin: auto 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+  }
+  
+  .lt-section-title {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .lt-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .lt-service-card {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .lt-service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  .lt-service-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .lt-service-title {
+    margin-top: 15px;
+    font-size: 1.2em;
+    text-transform: lowercase;
+    color: #fff;
+  }
+  

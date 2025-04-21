@@ -1,0 +1,90 @@
+.idw-collage-container {
+    position: relative;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.85);
+    background-image: url("https://static.wixstatic.com/media/659a5b_e4adc875717548cda3021f5e6ce3a76f~mv2.jpg/v1/fill/w_1425,h_690,al_c,q_85,usm_1.20_1.00_0.01,enc_avif,quality_auto/659a5b_e4adc875717548cda3021f5e6ce3a76f~mv2.jpg");
+    background-size: cover;
+  }
+  
+  .idw-collage-main {
+    position: relative;
+    max-width: 106vh;
+    margin-top: 10vh;
+    
+  }
+  .idw-collage-main h2{
+    font-size: 50px;
+    margin-top: 50px;
+    font-family:cursive;
+    color: white;
+  }
+  
+  .idw-collage-image {
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+  }
+  
+  .idw-collage-image.main {
+    width: 100%;
+    height: auto;
+  }
+  
+  .idw-collage-image.overlay {
+    position: absolute;
+    bottom: -20px;
+    right: -40px;
+    width: 40%;
+    border: 3px solid #fff;
+  }
+  
+  .idw-collage-image:hover {
+    transform: scale(1.02);
+  }
+  
+  /* next section  */
+
+  .idw-vision-section {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 80px 20px;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+  }
+  
+  .idw-vision-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .idw-vision-left {
+    flex: 1 1 40%;
+  }
+  
+  .idw-vision-left h2 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    font-weight: 600;
+    white-space: pre-line;
+  }
+  
+  .idw-vision-right {
+    flex: 1 1 55%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .idw-vision-right p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #ccc;
+  }
+  

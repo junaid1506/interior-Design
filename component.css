@@ -1,0 +1,49 @@
+.idw-vision-section {
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .idw-vision-overlay {
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(10px);
+    padding: 60px 40px;
+    border-radius: 20px;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .idw-vision-title {
+    font-size: 2.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .idw-vision-text {
+    font-size: 1.05rem;
+    color: #ddd;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .idw-vision-button {
+    padding: 12px 24px;
+    border: 1px solid #e0b95b;
+    color: #e0b95b;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+  
+  .idw-vision-button:hover {
+    background-color: #e0b95b;
+    color: #0f0f0f;
+  }
+  

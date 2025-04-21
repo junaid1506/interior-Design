@@ -1,0 +1,72 @@
+.idw-services-section {
+    background-color: transparent;
+    color: white;
+    padding: 80px 40px;
+    /* font-family: 'Segoe UI', sans-serif; */
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+  }
+  
+  .idw-services-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+  }
+  
+  .idw-services-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .idw-services-header p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
+  .idw-divider {
+    width: 60px;
+    height: 2px;
+    background-color: #e0b95b;
+    margin: 20px auto 0;
+  }
+  
+  .idw-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+  }
+  
+  .idw-service-box {
+    background-color: black;
+    border: 1px solid #2c2c2c;
+    border-radius: 12px;
+    padding: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .idw-service-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .idw-number {
+    color: #e0b95b;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .idw-service-box h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .idw-service-box p {
+    font-size: 0.95rem;
+    color: #ccc;
+    line-height: 1.5;
+  }
+  
